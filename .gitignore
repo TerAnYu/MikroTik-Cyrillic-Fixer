@@ -1,2 +1,5 @@
 .venv312
 .git
+dist
+build
+MikrotikCyrillicFixer.spec
