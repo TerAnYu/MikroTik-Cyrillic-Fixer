@@ -6,7 +6,7 @@ import hashlib
 import re
 import threading
 
-VERSION = "0019"
+VERSION = "0020"
 COPYRIGHT = "© Qwen3.7 & TerAnYu"
 
 PATTERN_ESCAPED = re.compile(r'(\\[0-9A-Fa-f]{2})+')
@@ -233,6 +233,7 @@ class MikrotikDecoderApp:
         "/ip/firewall/nat",
         "/ip/firewall/mangle",
         "/ip/firewall/raw",
+        "/ip/firewall/address-list",
         "/ip/dhcp-server/network",
         "/ip/dhcp-server/lease",
         "/ip/dns/static",
