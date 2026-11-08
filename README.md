@@ -1,6 +1,5 @@
 # MikroTik Cyrillic Fixer
 
-**Версия:** 0019  
 **Авторы:** Qwen3.7 & TerAnYu  
 **Лицензия:** MIT
 
